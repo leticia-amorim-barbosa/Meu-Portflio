@@ -1,0 +1,87 @@
+@font-face {
+    font-family: The Seasons;
+     src: url('fonts/The Seasons Font/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf');
+}
+@font-face {
+    font-family: Aptos;
+     src: url('Microsoft-Aptos-Fonts-Family/Aptos.ttf');
+}
+
+/*Página Inicial*/
+
+.menu_inicial { 
+  background-image: url(img/FundoBranco.png); 
+  height: 80vh;
+  }
+
+.Textos_Pg1 {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+    transform: translateY(-70%);
+    width: 50%;
+}
+
+.titulo {
+    font-family: "The Seasons", serif;
+    font-size: 550%;
+    color: rgb(0, 0, 0);
+    margin-top: 0; 
+  }
+
+
+.subtitulo_menu {
+    font-family: "Aptos", sans-serif;
+    font-size: 250%;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+  }
+
+.foto_menu {
+    height: 150%;
+    width: 47%;
+    position: relative;
+    top: -10%;
+    left: 55%;
+}
+
+/*Minha apresentação*/
+
+.Apresentação {
+    background-image: url(img/FundoD.png);
+    height: 80vh;             
+
+}
+
+.Polaroids {
+    height: 1200px;
+    width: 900px;
+    position: relative;
+}
+
+.Textos_Pg2 {
+    position: absolute;
+    top: 700px;
+    left: 700px; 
+    transform: translateY(75%);
+    width: 1000px;
+}
+
+.Titulo_1 {
+    font-family: "The Seasons", serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  
+  .Conteudo {
+    font-family: "Aptos", sans-serif;
+    text-align: justify;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  } 
